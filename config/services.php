@@ -30,4 +30,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'itsme' => [
+        'token' => env('ITSME_TOKEN'),
+        'base_url' => env('ITSME_BASE_URL')
+    ],
+
 ];
